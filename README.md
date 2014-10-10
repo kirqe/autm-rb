@@ -34,7 +34,7 @@ there's a little mess in styles.css
 ## Installation
 
 - [Fork this repository][fork]
-- Clone it: `git clone https://github.com/YOUR-USER/autmn-rb`
+- Clone it: `git clone https://github.com/YOUR-USER/autm-rb`
 - Install the [GitHub Pages gem][pages] (includes Jekyll): `bundle install`
 - Run the jekyll server: `jekyll serve`
 
