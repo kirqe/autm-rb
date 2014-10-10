@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div class="post-title">
+    <h1>{{ page.title }}</h1>
+    {% include post-header.html %}
+</div>
+            
+  {{ content }}
+    
+<div class="share-btns">
+  {% include share-btns.html %}
+</div>   
+
+<div class="comments">
+  {% include disqus.html%}
+</div> 
+
+<div class="post-footer">
+  {% include post-footer.html %}
+</div>
+<hr/>
+
+{% if site.data.theme.show_post_navs %}
+  {% if page.previous or page.next %}
+    <div class="post-navs row">
+      {% if page.previous %}
+        <div class="col-md-6 post-nav">
+            
+          <h3 class="section-header">
+            Older
+            <span class="text-muted"> &middot; </span>
+            <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
+          </h3>
+            
+          <h2 class="post-title-link"><a href="{{ page.previous.url | prepend:site.baseurl }}">{{ page.previous.title }}</a></h2>
+          {{ page.previous.excerpt | markdownify }}
+        </div>
+      {% endif %}
+      {% if page.next %}
+        
+        <div class="col-md-6 post-nav">
+          <h3 class="section-header">
+            Newer
+            {% unless page.previous %}
+              <span class="text-muted"> &middot; </span>
+              <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
+            {% endunless %}
+          </h3>
+            
+          <h2 class="post-title-link"><a href="{{ page.next.url | prepend:site.baseurl }}">{{ page.next.title }}</a></h2>
+          {{ page.next.excerpt | markdownify }}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endif %}

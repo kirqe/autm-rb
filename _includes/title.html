@@ -1,0 +1,23 @@
+<div id="title">
+  <h1>
+    {% if site.git %}
+      <a href="{{site.git}}"><img src="{{"/images/page_icons/git.png" | prepend:site.baseurl }}"></a>
+    {% endif %}
+
+    {% if site.stackoverflow %}
+      <a href="{{site.stackoverflow}}"><img src="{{"/images/page_icons/so.png" | prepend:site.baseurl }}"></a>
+    {% endif %}
+    <a id="sitename" href="/">railsr.github.io</a>
+  </h1>
+<div style="block">
+        
+</div>
+  <!-- Add something about you in p tag-->
+  <p>Hello, my name is Kirill. And I'm trying to become a Ruby on Rails Developer.</p>
+  <hr/>
+  
+  {% include nav-links.html %} 
+  
+</div>
+
+

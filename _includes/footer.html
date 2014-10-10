@@ -1,0 +1,16 @@
+
+<footer>
+<hr/>
+  <div class="left">  
+    &copy;{{ site.time | date:"%Y" }}.
+    Built with <a href="http://jekyllrb.com/">Jekyll</a> and
+    <a href="https://github.com/railsr/autm-rb">Autm-rb</a>
+  </div>
+
+  <div class="right">
+    {% if site.twitter %}
+      <a href="{{site.twitter}}"><img src="{{"/images/page_icons/tw.png" | prepend:site.baseurl }}"></a>
+    </a>
+    {% endif %}
+  </div>
+</footer>

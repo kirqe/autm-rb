@@ -1,0 +1,40 @@
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "railsr.github.io" # the base hostname & protocol for your site.
+title: "railsr"
+
+
+paginate: 3 #articles per page
+paginate_path: /blog/page:num #makes pagination working
+
+
+#contacts
+git: "https://github.com/railsr"  #Add your github url here.
+stackoverflow: "http://stackoverflow.com/users/1231365/railsr" #Add your stackoverflow url here.
+twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
+
+
+gems:
+  - jekyll-sitemap
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

@@ -1,0 +1,6 @@
+# Theme customization is done on this file instead of _config.yml so that
+# you don't have to restart Jekyll to see changes.
+
+# Show navigation below each post?
+show_post_navs: true
+

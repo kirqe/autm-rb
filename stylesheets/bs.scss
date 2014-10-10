@@ -1,0 +1,54 @@
+---
+---
+
+//KEEP IT HERE
+$font-size-base: 15px;
+$font-size-h1: floor(($font-size-base * 2));
+$font-size-h2: floor(($font-size-base * 1.4));
+$font-size-h3: floor(($font-size-base * 1));
+$font-size-h4: floor(($font-size-base * 1));
+$font-size-h5: floor(($font-size-base * 1));
+$font-size-h6: floor(($font-size-base * 1));
+$blockquote-font-size: floor(($font-size-base * 1.25));
+$blockquote-font-size: 14px;
+$line-height-base: 1.8;
+$headings-line-height: 1.3;
+
+
+//CUSTOMIZE BOOTSTRAP VARIABLES HERE
+//YOU CAN FIND ALL THE VARIABLES NAMES AND COMPONENTS ITSEF IN _saas/bootstrap DIRECTORY 
+
+//HERES AN EXAMPLE OF CUSTOMIZING BOOTSTRAP ALERT SUCCESS BOX
+//GOOD LUCK :)
+$alert-success-bg: #222A30;
+$alert-success-border: #21E7B7;
+$alert-success-text: #21E7B7;
+
+//mark
+$state-warning-bg: #49B1F7;
+
+
+
+@import "custom-bootstrap-variables";
+@import "bootstrap-sass/bootstrap";
+
+
+//share buttons
+.btn{
+ &:hover,
+  &:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+mark, .mark {
+  opacity: 0.9;
+}
+
+section{
+  -webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
+
