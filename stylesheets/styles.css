@@ -361,6 +361,16 @@ a small {
   display: block;
 }
 
+a#git-ic{
+	font-size:0.9em;
+	color:#fff;
+}
+
+a#so-ic{
+	font-size:0.9em;
+	color:#fff;
+}
+
 ul {
   list-style-image: url("../images/bullet.png");
 }
