@@ -2,8 +2,6 @@
 Another theme for jekyll.
 based on shiori and midnight
 
-live version: [railsr.github.io][live]
-
 features:
 
 - github, stackoverflow, twitter links
@@ -64,4 +62,3 @@ Edit this files before using
 
 [pages]: http://pages.github.com
 [fork]: https://github.com/railsr/autm-rb/fork
-[live]: http://railsr.github.io
