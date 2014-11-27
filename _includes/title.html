@@ -1,19 +1,20 @@
 <div id="title">
   <h1>
-    {% if site.git %}
-      <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>
-    {% endif %}
+    {% unless site.git == "" %}
+		  <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+    {% endunless %}
 
-    {% if site.stackoverflow %}
+    {% unless site.stackoverflow == "" %}
       <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
-    {% endif %}
-    <a id="sitename" href="/">railsr.github.io</a>
+    {% endunless %}
+		
+    <a id="sitename" href="/">username.github.io</a>
   </h1>
 <div style="block">
         
 </div>
   <!-- Add something about you in p tag-->
-  <p>Hello, my name is Kirill. And I'm trying to become a Ruby on Rails Developer.</p>
+  <p>Write something about you here...</p>
   <hr/>
   
   {% include nav-links.html %} 

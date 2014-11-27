@@ -1,4 +1,3 @@
-
 <footer>
 <hr/>
   <div class="left">  
@@ -8,9 +7,9 @@
   </div>
 
   <div class="right">
-    {% if site.twitter %}
-      <a href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" style="color:#49B1F7;></i></a>
+    {% unless site.twitter == "" %}
+      <a href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" style="color:#49B1F7;"></i></a>
     </a>
-    {% endif %}
+    {% endunless %}
   </div>
 </footer>
