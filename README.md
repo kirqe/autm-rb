@@ -20,8 +20,6 @@ features:
 #### Contribution
 Pull Requests always welcome.
 
-there's a little mess in styles.css
-
 ## Screens
 
 ![](http://i.imgur.com/vZ6ezH1.png?1)
