@@ -2,8 +2,9 @@
 title: archive
 permalink: "archive/index.html"
 ---
-<h4 id="red"><a href="{{ "/tags" | prepend:site.baseurl }}">Tags</a></h4>
-<div class="page-archive">
+
+<div class="page-archive"><h4>
+	<a href="{{ "/tags" | prepend:site.baseurl }}">Tags</a></h4>
 {% for post in site.posts %}
   {% assign post_month_year = post.date | date: "%B %Y" %}
   {% assign newer_post_month_year = post.next.date | date: "%B %Y" %}

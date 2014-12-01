@@ -64,7 +64,7 @@ print_hi('jekyll')
 ## Images
 
 Images are responsive.
-![]({{site.baseurl}}/images/in_post_images/colors_used.png)
+![]({{site.baseurl}}/images/local/colorsp.png)
 
 ## That's it!
 

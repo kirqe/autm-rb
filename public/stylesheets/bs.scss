@@ -27,17 +27,14 @@ $alert-success-text: #21E7B7;
 //mark
 $state-warning-bg: #49B1F7;
 
-
-
 @import "custom-bootstrap-variables";
 @import "bootstrap-sass/bootstrap";
-
 
 //share buttons
 .btn{
  &:hover,
   &:focus {
-    color: #fff;
+    color: #EC4E3B;
     text-decoration: none;
   }
 }
@@ -46,3 +43,8 @@ mark, .mark {
   opacity: 0.9;
 }
 
+pre {
+  code {
+    font-size: 13px;
+  }
+}

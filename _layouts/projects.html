@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ "/stylesheets/bs.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" href="{{"/stylesheets/styles.css" | prepend:site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/public/stylesheets/bs.css" | prepend:site.baseurl }}">
+    <link rel="stylesheet" href="{{"/public/stylesheets/styles.css" | prepend:site.baseurl }}">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="icon" type="image/x-icon"  href="{{ "/favicon.ico" | prepend:site.baseurl }}" />
@@ -22,8 +22,8 @@
           {{ content }} 
         </section>
     </div>   
-    <script src="{{ "/javascripts/jquery.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/javascripts/bootstrap.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/public/javascripts/jquery.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/public/javascripts/bootstrap.min.js" | prepend:site.baseurl }}"></script>
     {% include scripts.html %}
   </body>
 </html>
