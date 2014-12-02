@@ -2,7 +2,7 @@
 Another theme for jekyll.
 based on shiori and midnight
 
-If you want live version, I use it for my blog. railsr.github.io/
+If you want live version, I use it for my [blog][blog]
 
 features:
 
@@ -62,3 +62,4 @@ Edit this files before using
 
 [pages]: http://pages.github.com
 [fork]: https://github.com/railsr/autm-rb/fork
+[blog]: http://railsr.github.io/
