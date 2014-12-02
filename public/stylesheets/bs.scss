@@ -27,6 +27,9 @@ $alert-success-text: #21E7B7;
 //mark
 $state-warning-bg: #49B1F7;
 
+//link-hover(there used to be a problem when you click and drag a link and it becomes dark)
+$link-hover-color: #49B1F7;
+
 @import "custom-bootstrap-variables";
 @import "bootstrap-sass/bootstrap";
 

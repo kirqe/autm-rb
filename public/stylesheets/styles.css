@@ -129,7 +129,11 @@ a {
 
 a:hover {
   color: #EC4E3B; 
+}
+
+a:hover, a:active, a:focus, a:visited  {
   text-decoration: none;
+  outline: 0;
 }
 
 a small {
