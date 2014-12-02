@@ -2,6 +2,8 @@
 Another theme for jekyll.
 based on shiori and midnight
 
+If you want live version, I use it for my blog - http://railsr.github.io/
+
 features:
 
 - github, stackoverflow, twitter links
