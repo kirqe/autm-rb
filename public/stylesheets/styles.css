@@ -291,6 +291,10 @@ section #title .credits.right {
   float: right;
 }
 
+.section-header-archive, .tag_name{
+	margin:  15px 0 0 0;	
+}
+
 footer .left{
   float: left;
 }
