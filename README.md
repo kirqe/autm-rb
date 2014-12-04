@@ -2,8 +2,6 @@
 Another theme for jekyll.
 based on shiori and midnight
 
-In case you want [here][blog].
-
 features:
 
 - github, stackoverflow, twitter links
