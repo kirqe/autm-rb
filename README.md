@@ -52,7 +52,7 @@ Edit this files before using
 
 ## Licensing
 
-[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE) Feel free to use and edit. But plz replace the welcome page image.
+[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE) Feel free to use and edit.
 
 
 [pages]: http://pages.github.com
