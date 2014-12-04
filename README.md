@@ -2,7 +2,7 @@
 Another theme for jekyll.
 based on shiori and midnight
 
-If you want live version, I use it for my blog [here][blog].
+In case you want [here][blog].
 
 features:
 
@@ -24,11 +24,9 @@ Pull Requests always welcome.
 
 ## Screens
 
-![](http://i.imgur.com/vZ6ezH1.png?1)
-![](http://i.imgur.com/qoSGGk1.png?1)
-![](http://i.imgur.com/E9xx8Nk.png?1)
-![](http://i.imgur.com/u3wnepk.png?1)
-![](http://i.imgur.com/HNrYb39.png?1)
+![](http://i.imgur.com/i1OZoFF.png)
+![](http://i.imgur.com/oc2ZfjH.png)
+
 
 ## Installation
 
