@@ -25,7 +25,6 @@ Pull Requests always welcome.
 ![](http://i.imgur.com/i1OZoFF.png)
 ![](http://i.imgur.com/oc2ZfjH.png)
 
-
 ## Installation
 
 - [Fork this repository][fork]
