@@ -30,7 +30,7 @@ Pull Requests always welcome.
 - [Fork this repository][fork]
 - Clone it: `git clone https://github.com/YOUR-USER/autm-rb`
 - Install the [GitHub Pages gem][pages] (includes Jekyll): `bundle install`
-- Run the jekyll server: `bundle exec jekyll serve`
+- Run the jekyll server: `jekyll serve` or `bundle exec jekyll serve`
 
 ## Customization
 
