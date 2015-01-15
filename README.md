@@ -41,11 +41,7 @@ Edit this files before using
 - /projects.html - here you can share some of your projects
 - /resume.html - write something about you
 - /favicon.ico change it or leave the existing one
-- _includes/disqus.html REQUIRED get your own disqus_shortname on disqus.com first  
-- _includes/scripts.html replace disqus_shortname for showing comments count
 - _includes/title.html REQUIRED
-- to enable DISQUS comments go to _includes/scripts.html and add the code provided by DISQUS
-- to enable Google analitics go to the same _includes/scripts.html file and add the code provided by google there
 
 ## Licensing
 
