@@ -7,8 +7,7 @@ based on shiori and midnight
 
 features:
 
-- github, stackoverflow, twitter links
-- sharebuttons: twitter, facebook, google plus
+- sharebuttons
 - comments via DISQUS
 - google analitics
 - pagination
@@ -18,7 +17,6 @@ features:
 - font awesome
 - responsive
 - embeded video support
-- cool colors
 
 #### Contribution
 Pull Requests always welcome.
