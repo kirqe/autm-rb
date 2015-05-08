@@ -1,7 +1,5 @@
 # Autm-rb
 
-[DEMO][demo]
-
 Another theme for jekyll.
 based on shiori and midnight
 
@@ -53,4 +51,3 @@ Edit this files before using
 
 [pages]: http://pages.github.com
 [fork]: https://github.com/railsr/autm-rb/fork
-[demo]: http://railsr.github.io/autm-rb/
