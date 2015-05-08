@@ -5,6 +5,8 @@
 Another theme for jekyll.
 based on shiori and midnight
 
+##[DEMO][demo]
+
 features:
 
 - github, stackoverflow, twitter links
