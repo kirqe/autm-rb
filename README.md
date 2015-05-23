@@ -1,11 +1,13 @@
 # Autm-rb
+
 Another theme for jekyll.
 based on shiori and midnight
 
+##[DEMO][demo]
+
 features:
 
-- github, stackoverflow, twitter links
-- sharebuttons: twitter, facebook, google plus
+- sharebuttons
 - comments via DISQUS
 - google analitics
 - pagination
@@ -15,7 +17,6 @@ features:
 - font awesome
 - responsive
 - embeded video support
-- cool colors
 
 #### Contribution
 Pull Requests always welcome.
@@ -50,4 +51,4 @@ Edit this files before using
 
 [pages]: http://pages.github.com
 [fork]: https://github.com/railsr/autm-rb/fork
-[blog]: http://railsr.github.io/
+[demo]: http://railsr.github.io/autm-rb/
