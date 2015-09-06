@@ -217,7 +217,7 @@ table {
 th {
   text-align: left;
   padding: 5px 10px;
-  border-bottom: 1px solid #434343;
+  border-bottom: 1px solid #424242;
   color: #b6b6b6;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
@@ -233,7 +233,6 @@ hr {
   height: 0;
   border: 0;
   border-bottom: 1px dashed #49B1F7;
-  color: #b5e853;
 }
 
 dt {
@@ -348,3 +347,4 @@ footer .right{
 #title #sitename,.resume span,.resume h2 {
   color: #EC4E3B;
 }
+

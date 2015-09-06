@@ -33,15 +33,6 @@ $link-hover-color: #49B1F7;
 @import "custom-bootstrap-variables";
 @import "bootstrap-sass/bootstrap";
 
-//share buttons
-.btn{
- &:hover,
-  &:focus {
-    color: #fff;
-    text-decoration: none;
-  }
-}
-
 mark, .mark {
   opacity: 0.9;
 }
