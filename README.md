@@ -46,7 +46,7 @@ Edit this files before using
 
 ## Licensing
 
-[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE) Feel free to use and edit.
+[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE)
 
 
 [pages]: http://pages.github.com
