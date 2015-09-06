@@ -5,10 +5,7 @@ based on shiori and midnight
 
 ##[DEMO][demo]
 
-features:
-
-- sharebuttons
-- comments via DISQUS
+- DISQUS comments
 - google analitics
 - pagination
 - tags
