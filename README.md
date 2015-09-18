@@ -5,10 +5,7 @@ based on shiori and midnight
 
 ##[DEMO][demo]
 
-features:
-
-- sharebuttons
-- comments via DISQUS
+- DISQUS comments
 - google analitics
 - pagination
 - tags
@@ -46,7 +43,7 @@ Edit this files before using
 
 ## Licensing
 
-[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE) Feel free to use and edit.
+[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE)
 
 
 [pages]: http://pages.github.com
