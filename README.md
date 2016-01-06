@@ -12,8 +12,6 @@ based on shiori and midnight
 - codehighlighting
 - bootstrap components
 - font awesome
-- responsive
-- embeded video support
 
 #### Contribution
 Pull Requests always welcome.
