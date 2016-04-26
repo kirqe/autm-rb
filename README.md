@@ -18,8 +18,8 @@ Pull Requests always welcome.
 
 ## Screens
 
-![](http://i.imgur.com/i1OZoFF.png)
-![](http://i.imgur.com/oc2ZfjH.png)
+![](screenshots/home.png)
+![](screenshots/post.png)
 
 ## Installation
 
@@ -30,19 +30,15 @@ Pull Requests always welcome.
 
 ## Customization
 
-Edit this files before using 
- 
-- _config.yml REQUIRED
-- /index.html - change the default image and email
-- /projects.html - here you can share some of your projects
-- /resume.html - write something about you
-- /favicon.ico change it or leave the existing one
-- _includes/title.html REQUIRED
+Edit this files before using
+
+- _config.yml
+- /index.html - update default image and email
+- _includes/title.html - main title
 
 ## Licensing
 
 [MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE)
-
 
 [pages]: http://pages.github.com
 [fork]: https://github.com/railsr/autm-rb/fork
