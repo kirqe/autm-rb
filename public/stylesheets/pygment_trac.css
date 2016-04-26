@@ -1,3 +1,50 @@
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  overflow: hidden;
+  background-color: #1D1D1F;
+  border-color: #1D1D1F;
+}
+
+pre:hover {
+  overflow: auto;
+}
+
+pre code {
+  padding: 0;
+
+  color: inherit;
+  background-color: transparent;
+}
+
+.highlight {
+  /*margin-bottom: 1rem;*/
+  border-radius: 4px;
+  margin: 0rem;
+}
+
+.highlight pre {
+  margin-bottom: 1rem;
+}
+
 .highlight .hll { background-color: #404040 }
 .highlight  { color: #d0d0d0 }
 .highlight .c { color: #999999; font-style: italic } /* Comment */

@@ -2,10 +2,8 @@ baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the r
 url: "username.github.io" # the base hostname & protocol for your site.
 title: "username-blog"
 
-
-paginate: 3 #articles per page
+paginate: 10 #articles per page
 paginate_path: /blog/page:num #makes pagination working
-
 
 #contacts
 git: "https://github.com/railsr"  #Add your github url here.
@@ -19,8 +17,10 @@ disqus:
 #google analytics
 google:
     tracking-id: "" #paste your tracking id here
+
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
