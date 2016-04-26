@@ -156,7 +156,7 @@ section .p-title{
 
 section #title h1 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 40px;
   text-align: center;
 }
@@ -164,7 +164,7 @@ section #title h1 {
 section #title p {
   color: #B3D1F0;
   font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 18px;
   text-align: center;
 }
@@ -239,6 +239,12 @@ footer .right{
   margin-bottom: 15px;
 }
 
-#title #sitename,.resume span,.resume h2 {
+#title #sitename,
+.resume span,
+.resume h2 {
   color: #EC4E3B;
+}
+
+#sitename{
+  font-weight: 300;
 }
