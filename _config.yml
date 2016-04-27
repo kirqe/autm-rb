@@ -6,17 +6,17 @@ paginate: 10 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 #contacts
-git: "https://github.com/railsr"  #Add your github url here.
+git: "https://github.com/railsr"  #your github url here.
 stackoverflow: "http://stackoverflow.com/users/1231365/railsr" #Add your stackoverflow url here.
 twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
 
 #disqus comment
 disqus:
-    shortname: "test" #replace with your disqus comment short name
+    shortname: "test" #your disqus comment short name
 
 #google analytics
 google:
-    tracking-id: "" #paste your tracking id here
+    tracking-id: "" #your tracking id here
 
 gems:
   - jekyll-sitemap
