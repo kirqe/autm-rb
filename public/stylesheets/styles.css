@@ -248,3 +248,7 @@ footer .right{
 #sitename{
   font-weight: 300;
 }
+
+mark, .mark {
+  opacity: 0.9;
+}
