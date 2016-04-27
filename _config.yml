@@ -30,7 +30,9 @@ exclude:
   - "CHANGELOG.md"
   - "Gemfile"
   - "Gemfile.lock"
-permalink: :title
+
+permalink: /posts/:title
+
 defaults:
   -
     scope:
