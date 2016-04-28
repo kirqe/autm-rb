@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ "/public/stylesheets/bs.css" | prepend:site.baseurl }}">
     <link rel="stylesheet" href="{{"/public/stylesheets/styles.css" | prepend:site.baseurl }}">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="icon" type="image/x-icon"  href="{{ "/favicon.ico" | prepend:site.baseurl }}" />
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
@@ -15,15 +16,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  </head> 
+  </head>
   <body>
-    <div class="wrapper">          
-        <section>               
+    <div class="wrapper">
+        <section>
             {% include title.html %}
-          
-            {{ content }}      
+
+            {{ content }}
         </section>
-    </div>   
+    </div>
     <script src="{{ "/public/javascripts/jquery.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/public/javascripts/bootstrap.min.js" | prepend:site.baseurl }}"></script>
     {% include scripts.html %}
