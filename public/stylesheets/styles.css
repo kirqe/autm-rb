@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #EC4E3B;
+  color:#B3D1F0;
   margin: 0 0 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -35,10 +35,6 @@ h1 {
 
 h2 {
   font-size: 24px;
-}
-
-h4, h5, h6 {
-  color: #e8e8e8;
 }
 
 h3 {
@@ -251,4 +247,8 @@ footer .right{
 
 mark, .mark {
   opacity: 0.9;
+}
+
+.orng{
+  color: #EC4E3B;
 }

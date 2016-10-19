@@ -2,7 +2,7 @@ baseurl: "/autm-rb" # The subpath of your site. Use "" if you're hosting a blog 
 url: "username.github.io" # the base hostname & protocol for your site.
 title: "username-blog"
 
-paginate: 10 #articles per page
+paginate: 6 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 #contacts
