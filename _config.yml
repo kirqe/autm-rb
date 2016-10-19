@@ -2,7 +2,7 @@ baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the r
 url: "username.github.io" # the base hostname & protocol for your site.
 title: "username-blog"
 
-paginate: 10 #articles per page
+paginate: 6 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 #contacts

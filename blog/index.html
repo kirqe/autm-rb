@@ -2,7 +2,7 @@
 title: "blog"
 
 ---
- 
+
 {% for post in paginator.posts  %}
 <div class="post-header-home">
   <h1>
@@ -12,25 +12,24 @@ title: "blog"
 </div>
 <div class="post-excerpt-home">
   {{ post.excerpt }}
-  <p class="text-left"><a href="{{ post.url | prepend:site.baseurl }}">Continue Reading &rarr;</a></p>
 </div>
 {% endfor %}
 
 <div class="paginate" >
 {% if paginator.total_pages > 1 %}
   {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: '/index.html', '/' }}"> <i class="fa fa-chevron-left"></i></a>                                                             
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: '/index.html', '/' }}"> <i class="fa fa-chevron-left"></i></a>
   {% else %}
     <span></span>
   {% endif %}
-  
+
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <em>{{ page }}</em>
     {% elsif page == 1 %}
       <a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page |}}">{{ page }}</a>
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
   {% endfor %}
 

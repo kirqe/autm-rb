@@ -5,14 +5,6 @@ based on shiori and midnight
 
 ##[DEMO][demo]
 
-- DISQUS comments
-- google analitics
-- pagination
-- tags
-- codehighlighting
-- bootstrap components
-- font awesome
-
 #### Contribution
 Pull Requests always welcome.
 
