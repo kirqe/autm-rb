@@ -34,4 +34,4 @@ Edit this files before using
 
 [pages]: http://pages.github.com
 [fork]: https://github.com/railsr/autm-rb/fork
-[demo]: http://railsr.github.io/autm-rb/
+[demo]: http://kirqe.github.io/autm-rb/
