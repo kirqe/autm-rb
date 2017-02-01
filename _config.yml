@@ -30,7 +30,8 @@ google:
 gems:
   - jekyll-sitemap
   - jekyll-paginate
-
+  - jemoji
+  
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
 
