@@ -133,11 +133,11 @@ Right aligned columns
 
 ## Links
 
-[link text](http://dev.nodeca.com)
+[link text](https://github.com)
 
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+[link with title](https://github.com/ "title text!")
 
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+Autoconverted link https://github.com (enable linkify to see)
 
 
 ## Images
