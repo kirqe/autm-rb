@@ -1,4 +1,4 @@
-<div id="title">
+<div id="header">
   <h1>
     {% unless site.git == "" %}
 		  <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>
@@ -15,6 +15,11 @@
   <p>{{ site.header }}</p>
   <hr/>
 
-  {% include nav-links.html %}
+  <span class="credits left">
+    {% for item in site.data.nav.items %}
+      <a href="{{ item.path | prepend:site.baseurl }}">{{item.text}}</a> {% unless forloop.last %} | {% endunless %}
+    {% endfor %}
+  </span>
+
 
 </div>

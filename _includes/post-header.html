@@ -1,1 +1,23 @@
-<p class="text-muted">{{ page.date | date_to_string }} | <i class="fa fa-tag"></i>{% include post-tags.html %}</p>
+
+  <p class="text-muted">
+    {% if post %}
+      {% assign tags = post.tags %}
+      {% assign resource = post %}
+    {% else %}
+      {% assign tags = page.tags %}
+      {% assign resource = page %}
+    {% endif %}
+
+
+    {{ resource.date | date_to_string }}
+    {% if site.data.theme.show_post_commets_count %}
+     | <i class="fa fa-comment"></i> <a class="text-muted" href="{{resource.url | prepend:site.baseurl}}/#disqus_thread"></a>
+    {% endif %}
+
+    {% if site.data.theme.show_post_tags == true %}
+      | <i class="fa fa-tag"></i>
+      {% for tag in tags %}
+        <a class="text-muted" href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    {% endif %}
+  </p>

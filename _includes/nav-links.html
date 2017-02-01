@@ -1,5 +1,0 @@
-<span class="credits left">
-  {% for item in site.data.nav.items %}
-    <a href="{{ item.path | prepend:site.baseurl }}">{{item.text}}</a> {% unless forloop.last %} | {% endunless %}
-  {% endfor %}
-</span>
