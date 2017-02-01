@@ -36,9 +36,8 @@ pre code {
 }
 
 .highlight {
-  /*margin-bottom: 1rem;*/
   border-radius: 4px;
-  margin: 0rem;
+  margin: 0 0 10px;
 }
 
 .highlight pre {

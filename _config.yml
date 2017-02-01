@@ -5,16 +5,25 @@ title: "username-blog"
 paginate: 6 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
-#contacts
+# header text
+header: Write something about you here...
+
+# contacts
 git: "https://github.com/railsr"  #your github url here.
 stackoverflow: "http://stackoverflow.com/users/1231365/railsr" #Add your stackoverflow url here.
 twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
 
-#disqus comment
+# for welcome page
+# to replace image go to index.html
+email:
+  address: "user@example.com"
+  text: "user (at) example.com"
+
+# disqus comment
 disqus:
     shortname: "test" #your disqus comment short name
 
-#google analytics
+# google analytics
 google:
     tracking-id: "" #your tracking id here
 

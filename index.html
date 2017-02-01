@@ -1,9 +1,9 @@
 ---
 layout: welcome
-
+welcome_img: "https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11208586_1596699727213864_1958685864_n.jpg"
 ---
 
- <div class="text-center">        
-  <img class="circular" src="https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11208586_1596699727213864_1958685864_n.jpg" >
-  <p>contact me <a href="mailto:user@example.com">user (at) example.com</a></p>
+<div class="text-center">
+  <img class="circular" src="{{page.welcome_img}}" >
+  <p>contact me <a href="mailto:{{site.email.address}}">{{site.email.text}}</a></p>
 </div>

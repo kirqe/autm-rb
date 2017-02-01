@@ -22,11 +22,7 @@ Pull Requests always welcome.
 
 ## Customization
 
-Edit this files before using
-
-- _config.yml
-- /index.html - update default image and email
-- _includes/title.html - main title
+Edit **_config.yml** before using
 
 ## Licensing
 

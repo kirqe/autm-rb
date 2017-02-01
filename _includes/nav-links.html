@@ -1,9 +1,5 @@
 <span class="credits left">
-  <a href="{{ "/blog" | prepend:site.baseurl }}">Blog</a> |
-  <a href="{{ "/archive" | prepend:site.baseurl }}">Archive</a> |
-  <a href="{{ "/about" | prepend:site.baseurl }}">About</a>
-</span>
-
-<span class="credits right">
-
+  {% for item in site.data.nav.items %}
+    <a href="{{ "{{item.path}}" | prepend:site.baseurl }}">{{item.text}}</a> {% unless forloop.last %} | {% endunless %}
+  {% endfor %}
 </span>
