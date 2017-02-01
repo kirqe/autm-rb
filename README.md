@@ -22,11 +22,7 @@ Pull Requests always welcome.
 
 ## Customization
 
-Edit this files before using
-
-- _config.yml
-- /index.html - update default image and email
-- _includes/title.html - main title
+Edit **_config.yml** before using
 
 ## Licensing
 
@@ -34,4 +30,4 @@ Edit this files before using
 
 [pages]: http://pages.github.com
 [fork]: https://github.com/railsr/autm-rb/fork
-[demo]: http://railsr.github.io/autm-rb/
+[demo]: http://kirqe.github.io/autm-rb/
