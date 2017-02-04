@@ -17,7 +17,7 @@
     {% if site.data.theme.show_post_tags == true %}
       | <i class="fa fa-tag"></i>
       {% for tag in tags %}
-        <a class="text-muted" href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
+        <a class="text-muted" href="{{site.baseurl}}/tags/#{{tag|slugize}} ">{{tag}}</a>{% unless forloop.last %},{% endunless %}
       {% endfor %}
     {% endif %}
   </p>
