@@ -3,7 +3,7 @@
 Another theme for jekyll.
 based on shiori and midnight
 
-##[DEMO][demo]
+## [DEMO][demo]
 
 #### Contribution
 Pull Requests always welcome.
