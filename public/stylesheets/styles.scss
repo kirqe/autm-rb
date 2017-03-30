@@ -8,13 +8,15 @@ body {
   font: 14px/1.5 'Open Sans', sans-serif;
   color: #A3BFC6 ;
   font-weight: normal;
-  background: #222A30;
+  background: {{ site.data.theme.bg }};
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+{% if site.data.theme.show-scroll %}
 ::-webkit-scrollbar {
     width: 0 !important
 }
+{% endif %}
 
 h1, h2, h3, h4, h5, h6 {
   color:#B3D1F0;
@@ -135,9 +137,8 @@ dt {
 }
 
 section {
-  padding: 10px 0px 50px 0px;
+  padding: 20px 0px 50px 0px;
   margin: 20px 0;
-  margin-top: 70px;
 
   #header {
     border: 0;
@@ -169,10 +170,22 @@ section {
     }
   }
 
+  #header, #footer {
+    .social {
+      a {
+        color: #fff;
+        font-size: 17px;
+        padding-left: .25em;
+      }
+    }
+  }
+
   .p-title{
     color: #49B1F7;
   }
 }
+
+
 
 .section-header-archive, .tag_name{
 	margin:  15px 0 0 0;

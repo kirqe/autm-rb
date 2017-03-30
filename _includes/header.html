@@ -1,13 +1,5 @@
 <div id="header">
   <h1>
-    <!-- {% unless site.git == "" %}
-		  <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>
-    {% endunless %}
-
-    {% unless site.stackoverflow == "" %}
-      <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
-    {% endunless %} -->
-
     <a id="sitename" href="{{site.baseurl}}">{{site.title}}</a>
   </h1>
 
@@ -21,9 +13,12 @@
     {% endfor %}
   </span>
 
-  <span class="credits pull-right">
-    <a href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
-    <a href="{{site.git}}"><i class="fa fa-github"></i></a>
+  <span class="credits pull-right social">
+    {% for sl in site.data.personal.social %}
+      {% unless sl[1] == '' %}
+        <a href="{{sl[1]}}" target="_blank"><i class="fa fa-{{sl[0]}}"></i></a>
+      {% endunless %}
+    {% endfor %}
   </span>
 
 
