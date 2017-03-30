@@ -64,28 +64,6 @@ a:hover, a:active, a:focus, a:visited  {
   outline: 0;
 }
 
-a small {
-  font-size: 11px;
-  color: #666;
-  margin-top: -0.6em;
-  display: block;
-}
-
-a#git-ic{
-  font-size:37px;
-  color:#fff;
-}
-
-a#so-ic{
-  font-size:32px;
-  color:#fff;
-}
-
-strong {
-  font-family: 'OpenSansBold', sans-serif;
-  font-weight: normal;
-}
-
 .wrapper {
   max-width: {{ site.data.theme.width }};
   margin: 0 auto;
@@ -184,8 +162,6 @@ section {
     color: #49B1F7;
   }
 }
-
-
 
 .section-header-archive, .tag_name{
 	margin:  15px 0 0 0;

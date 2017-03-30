@@ -1,21 +1,17 @@
 # Autm-rb
 
 Another theme for jekyll.
-based on shiori and midnight
 
 ## [DEMO][demo]
 
-#### Contribution
-Pull Requests always welcome.
+## Customization
+
+Edit **_config.yml** and files inside **_data/** before using
 
 ## Screens
 
 ![](screenshots/home.png)
 ![](screenshots/post.png)
-
-## Customization
-
-Edit **_config.yml** before using
 
 ## Licensing
 
