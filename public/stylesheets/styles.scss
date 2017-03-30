@@ -1,3 +1,5 @@
+---
+---
 /* main */
 
 body {
@@ -83,7 +85,7 @@ strong {
 }
 
 .wrapper {
-  max-width: 700px;
+  max-width: {{ site.data.theme.width }};
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
@@ -133,64 +135,47 @@ dt {
 }
 
 section {
-  max-width: 750px;/*  //750*/
-  padding: 30px 0px 50px 0px;
+  padding: 10px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
-}
 
-section #header {
-  border: 0;
-  outline: none;
-  margin: 0 0 20px 0;
-  padding: 0 0 5px 0;
-}
+  #header {
+    border: 0;
+    outline: none;
+    margin: 0 0 20px 0;
+    padding: 0 0 5px 0;
 
-section .p-title{
-  color: #49B1F7;
-}
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 100;
+      font-size: 38px;
+      text-align: center;
+    }
 
-section #header h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
-  font-size: 38px;
-  text-align: center;
-}
+    p {
+      color: #B3D1F0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 100;
+      font-size: 18px;
+      text-align: center;
+    }
 
-section #header p {
-  color: #B3D1F0;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
-  font-size: 18px;
-  text-align: center;
-}
+    .credits {
+      font-size: 13px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: normal;
+      color: #696969;
+      margin-top: -25px;
+    }
+  }
 
-section #header .credits {
-  font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  color: #696969;
-  margin-top: -27px;
-}
-
-section #header .credits.left {
-  float: left;
-}
-
-section #header .credits.right {
-  float: right;
+  .p-title{
+    color: #49B1F7;
+  }
 }
 
 .section-header-archive, .tag_name{
 	margin:  15px 0 0 0;
-}
-
-footer .left{
-  float: left;
-}
-
-footer .right{
-  float: right;
 }
 
 .paginate{
@@ -198,7 +183,7 @@ footer .right{
 }
 
 .resume p{
-  mfont-size: 15px;
+  font-size: 15px;
   line-height: 24px;
   margin: 0 0 10px;
   font-family: 'Open Sans', sans-serif;
