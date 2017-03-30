@@ -1,17 +1,12 @@
 baseurl: "/autm-rb" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "username.github.io" # the base hostname & protocol for your site.
-title: "username-blog"
 
 paginate: 6 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 # header text
+title: Your awesome site name :)
 header: Write something about you here...
-
-# contacts
-git: "https://github.com/railsr"  #your github url here.
-stackoverflow: "http://stackoverflow.com/users/1231365/railsr" #Add your stackoverflow url here.
-twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
 
 # for welcome page
 # to replace image go to index.html

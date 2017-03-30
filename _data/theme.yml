@@ -4,3 +4,15 @@ show_post_navs: true
 # show this info in post header
 show_post_commets_count: true
 show_post_tags: true
+
+# customize max-width of the main content
+# 700px, 900px etc
+width: "750px"
+
+# show or hide scroll-bar
+show-scroll: true
+
+# easily change background color
+# #000
+# dark colors looks better with current font colors
+bg: "#222A30"

@@ -1,15 +1,18 @@
-<footer>
+<div id="footer">
 <hr/>
-  <div class="left">  
+  <div class="pull-left">
     &copy;{{ site.time | date:"%Y" }}.
     Built with <a href="http://jekyllrb.com/">Jekyll</a> and
     <a href="https://github.com/railsr/autm-rb">Autm-rb</a>
   </div>
 
-  <div class="right">
-    {% unless site.twitter == "" %}
-      <a href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" style="color:#49B1F7;"></i></a>
-    </a>
-    {% endunless %}
+  <div class="pull-right">
+    <span class="credits pull-right social">
+      {% for sl in site.data.personal.social %}
+        {% unless sl[1] == '' %}
+          <a href="{{sl[1]}}" target="_blank"><i class="fa fa-{{sl[0]}}"></i></a>
+        {% endunless %}
+      {% endfor %}
+    </span>
   </div>
-</footer>
+</div>

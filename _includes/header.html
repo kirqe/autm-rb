@@ -1,23 +1,23 @@
 <div id="header">
   <h1>
-    {% unless site.git == "" %}
-		  <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>
-    {% endunless %}
-
-    {% unless site.stackoverflow == "" %}
-      <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
-    {% endunless %}
-
-    <a id="sitename" href="{{site.baseurl}}">username.github.io</a>
+    <a id="sitename" href="{{site.baseurl}}">{{site.title}}</a>
   </h1>
 
   <!-- Add something about you in p tag-->
   <p>{{ site.header }}</p>
   <hr/>
 
-  <span class="credits left">
+  <span class="credits pull-left">
     {% for item in site.data.nav.items %}
       <a href="{{ item.path | prepend:site.baseurl }}">{{item.text}}</a> {% unless forloop.last %} | {% endunless %}
+    {% endfor %}
+  </span>
+
+  <span class="credits pull-right social">
+    {% for sl in site.data.personal.social %}
+      {% unless sl[1] == '' %}
+        <a href="{{sl[1]}}" target="_blank"><i class="fa fa-{{sl[0]}}"></i></a>
+      {% endunless %}
     {% endfor %}
   </span>
 
