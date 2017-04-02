@@ -1,4 +1,10 @@
 # theme customizations
+
+# remove excerpt from blog page
+# make it look compact (shows only title and date)
+compact: false
+
+# show posts navs
 show_post_navs: true
 
 # show this info in post header
@@ -13,6 +19,5 @@ width: "750px"
 show-scroll: false
 
 # easily change background color
-# #000
 # dark colors looks better with current font colors
 bg: "#222A30"

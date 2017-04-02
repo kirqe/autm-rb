@@ -3,18 +3,32 @@ title: "blog"
 
 ---
 
-{% for post in paginator.posts  %}
-<div class="post-header-home">
-  <h1>
-    <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
-  </h1>
-  {% include post-header.html %}
-</div>
-<div class="post-excerpt-home">
-  {{ post.excerpt }}
-</div>
-{% endfor %}
-
+{% if site.data.theme.compact %}
+  <div class="posts compact">
+    {% for post in site.posts  %}
+    <div class="clearfix">
+      <h3 class="pull-left">
+        <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+      </h3>
+      <span class="text-muted pull-right">{{ post.date | date_to_string }}</span>
+    </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="posts regular">
+    {% for post in paginator.posts  %}
+    <div>
+      <h1>
+        <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+      </h1>
+      {% include post-header.html %}
+    </div>
+    <div class="post-excerpt-home">
+      {{ post.excerpt }}
+    </div>
+    {% endfor %}
+  </div>
+  
 <div class="paginate" >
 {% if paginator.total_pages > 1 %}
   {% if paginator.previous_page %}
@@ -41,3 +55,4 @@ title: "blog"
 
 {% endif %}
 </div>
+{% endif %}
