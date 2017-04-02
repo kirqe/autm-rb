@@ -10,7 +10,7 @@ show_post_tags: true
 width: "750px"
 
 # show or hide scroll-bar
-show-scroll: true
+show-scroll: false
 
 # easily change background color
 # #000
