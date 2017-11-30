@@ -2,12 +2,11 @@
 title: "Lorem ipsum"
 tags: [lorem]
 ---
-MIA SAN MIA!
 
 Lorem markdownum potiunda maerenti vernum tantaeque arbore superstes vulnera,
 loqui voce inque auro, sed. Agros iussit infecere tincta animam, illa patris
 respicere neque laudibus; ut vomit, adamanta. Pari nec; hanc ordo illud naris
-terraeque, ferox dolendi.
+terraeque, ferox dolendi. MIA SAN MIA!
 
 
 # Fodiebant quodsi tetigisse sed septem esse paulum
