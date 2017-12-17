@@ -1,8 +1,8 @@
 # nav items in header
 items:
-  - text: 'Blog'
+  - text: '산출물'
     path: '/blog'
-  - text: 'Archive'
+  - text: '태그 모음'
     path: '/archive'
   - text: 'About'
     path: '/about'
