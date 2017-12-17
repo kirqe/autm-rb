@@ -5,14 +5,14 @@ paginate: 6 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 # header text
-title: Your awesome site name :)
-header: Write something about you here...
+title: Happy OpenSource!
+header: 오픈소스 9조 포트폴리오 블로그
 
 # for welcome page
 # to replace image go to index.html
 email:
-  address: "user@example.com"
-  text: "user (at) example.com"
+  address: "maj_cide@naver.com"
+  text: "maj_cide (at) naver.com"
 
 # disqus comment
 disqus:

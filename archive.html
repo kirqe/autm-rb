@@ -1,11 +1,11 @@
 ---
-title: archive
+title: 태그
 permalink: "archive/index.html"
 ---
 
 
 <div class="page-archive">
-<h4><a href="{{ "/tags" | prepend:site.baseurl }}">Tags</a></h4>
+<h4><a href="{{ "/tags" | prepend:site.baseurl }}">태그 모음</a></h4>
 {% for post in site.posts %}
   {% assign post_month_year = post.date | date: "%B %Y" %}
   {% assign newer_post_month_year = post.next.date | date: "%B %Y" %}
