@@ -6,7 +6,7 @@ body {
   padding: 0px 0 20px 0px;
   margin: 0px;
   font: 14px/1.5 'Open Sans', sans-serif;
-  color: #A3BFC6 ;
+  color: #000000;
   font-weight: normal;
   background: {{ site.data.theme.bg }};
   -webkit-font-smoothing: subpixel-antialiased;
@@ -19,7 +19,7 @@ body {
 {% endunless %}
 
 h1, h2, h3, h4, h5, h6 {
-  color:#B3D1F0;
+  color:#000000;
   margin: 0 0 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -132,7 +132,7 @@ section {
     }
 
     p {
-      color: #B3D1F0;
+      color: #000000;
       font-family: 'Open Sans', sans-serif;
       font-weight: 100;
       font-size: 18px;
@@ -176,8 +176,8 @@ section {
   line-height: 24px;
   margin: 0 0 10px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  color: #A3BFC6;
+  font-weight: bold;
+  color: #000000;
 }
 
 .tags{
